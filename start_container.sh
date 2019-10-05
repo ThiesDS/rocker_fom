@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get path to current directory
-cur_path=$(PWD)
+cur_path=$(pwd)
 
 # Run container with volume mount of files folder for persistent storage
 docker run --rm -p 8787:8787 \
